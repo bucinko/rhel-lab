@@ -10,4 +10,4 @@ virt-install --name=outsider1 \
 --location=ftp://192.168.122.1/pub/rhel7/core \
 --network bridge=virbr1 \
 --os-type=linux --os-variant=centos7.0 \
---extra-args="console=ttyS0,115200n8 serial ks=ftp://192.168.100.1/pub/rhel7/ks2.cfg" 
+--extra-args="console=ttyS0,115200n8 serial ks=ftp://192.168.100.1/pub/rhel7/ks2.cfg"   &

@@ -3,7 +3,7 @@
 
 
 virt-install --name=tester1 \
---disk path=/var/lib/libvirt/storage-pool/server1,size=40,cache=none \
+--disk path=/var/lib/libvirt/storage-pool/tester1,size=40,cache=none \
 --graphics none \
 --console pty,target_type=serial \
 --vcpus=1 --ram=2048 \

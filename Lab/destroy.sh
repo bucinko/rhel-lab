@@ -15,5 +15,7 @@ virsh destroy  outsider1
 rm -rf  /var/lib/libvirt/storage-pool/outsider1
 
 
-pool-destroy storage-pool
-pool-undefine  storage-pool
+virsh pool-destroy storage-pool
+virsh pool-undefine  storage-pool
+
+virsh  net-destroy outsider

@@ -1,7 +1,7 @@
 - Understanding boot menu
 
-booting - grub2
-e - edit  mode   
+booting - grub2   
+e - edit  mode    
 c - go into 
 
 edit mode opens  /boot/grub2/grub.cfg  after changes ctrl+x start boot using changes

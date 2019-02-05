@@ -9,7 +9,7 @@ edit mode opens  /boot/grub2/grub.cfg  after changes ctrl+x start boot using cha
 /etc/default/grub  values in this files generate /boot/grub2/grub.cfg
 after changes run  grub2-mkconfig to make efect
 to regenerate /boot/grub2/grub.cfg file :
-grub2-mkconfig –o /boot/grub2/grub.cfg
+grub2-mkconfig â€“o /boot/grub2/grub.cfg
 manual changes in /boot/grub2/grub.cfg will be lost.
 
 
